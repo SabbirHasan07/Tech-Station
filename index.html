@@ -7,6 +7,7 @@
   <title>Tech Station</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/8fbd7208a4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -27,11 +28,11 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-link" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Courses</a>
-                <a class="nav-link" href="#">Deals</a>
-                <a class="nav-link">Success</a>
+                <a class="nav-link" href="#courses">Courses</a>
+                <a class="nav-link" href="#get-start">Deals</a>
+                <a class="nav-link" href="#success">Success</a>
                 <a class="nav-link">About</a>
-                <a class="nav-link">Register</a>
+                <a class="nav-link" href="#register">Register</a>
               </div>
             </div>
           </div>
@@ -97,7 +98,7 @@
     </div>
   </section>
   <section>
-    <div class="m-5 p-3">
+    <div class="m-5 p-3" id="courses">
       <div>
         <span class="fs-1 fw-bold d-flex justify-content-center">Discover Our Popular</span>
 
@@ -215,7 +216,7 @@
     </div>
 
   </section>
-  <section>
+  <section id="get-start">
     <div class="m-5 p-3">
       <div class="card mb-3 border-0" style="max-width: 1500px;">
         <div class="row g-0">
@@ -255,9 +256,128 @@
       </div>
     </div>
   </section>
-  <section>
-    
+  <section id="register">
+    <div class="m-5 p-3">
+      <div class="row text-bg-primary p-3 rounded">
+        <div class="col-lg-7 p-5">
+          <h1 class="fw-bold">Ready To Join?</h1>
+          <p class="fs-4">You already know about our courses. If want to be a membar of our family then push the
+            register button </p>
+        </div>
+        <div class="col-lg-5">
+          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title fs-1 text-primary" id="exampleModalToggleLabel">Registration</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-dark">
+                  <h1>Form</h1>
+                  <div>
+        
+                    <div class="input-group input-group-sm mb-3 p-3">
+                      <span class="input-group-text fs-3" id="inputGroup-sizing-sm">Name</span>
+                      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3 p-3">
+                      <span class="input-group-text fs-3" id="inputGroup-sizing-sm">Gurdiane Name</span>
+                      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3 p-3">
+                      <span class="input-group-text fs-3" id="inputGroup-sizing-sm">Phone Number</span>
+                      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3 p-3">
+                      <span class="input-group-text fs-3" id="inputGroup-sizing-sm">E-mail</span>
+                      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3 p-3">
+                      <span class="input-group-text fs-3" id="inputGroup-sizing-sm">Password</span>
+                      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    <div class="input-group input-group-sm mb-3 p-3">
+                      <span class="input-group-text fs-3" id="inputGroup-sizing-sm">Transaction Id</span>
+                      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary fs-2 ps-5 pe-5" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-dark fs-3" id="exampleModalToggleLabel2"><i class="fa-solid fa-circle-check"></i> Done</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-dark">
+                  <p class="fs-4"><span class="text-warning">Congratultons!</span> You successfully complete your registration.</p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-light text-primary ps-5 pe-5 m-5 fs-4 " data-bs-toggle="modal" href="#exampleModalToggle" role="button">Register Now</a>
+        </div>
+      </div>
+    </div>
   </section>
+  <section id="success">
+    <div class="m-5 p-3">
+      <div>
+        <div class="fs-1 fw-bold">
+          <span>Meet Our Successfull</span>
+          <br>
+          <span>Students</span>
+        </div>
+        <p class="fs-4 mb-5">Here, Ours successfull Students. Know About them.</p>
+        <div class="row">
+          <div class="col-lg-3">
+            <img  class="rounded" src="images/student/student-1.png" alt="">
+            <p class="fs-2 fw-bold ps-5">
+              Mirza Adnan
+            </p>
+            <p class="fs-4 ps-5"> Ui/UX Designer</p>
+          </div>
+          <div class="col-lg-3">
+            <img  class="rounded" src="images/student/student-2.png" alt="">
+            <p class="fs-2 fw-bold ps-5">
+              Sanjida Akter
+            </p>
+            <p class="fs-4 ps-5"> Motion Designer</p>
+          </div>
+          <div class="col-lg-3">
+            <img  class="rounded" src="images/student/student-3.png" alt="">
+            <p class="fs-2 fw-bold ps-5">
+              Rahat Anan
+            </p>
+            <p class="fs-4 ps-5"> Graphics Designer</p>
+          </div>
+          <div class="col-lg-3">
+            <img  class="rounded" src="images/student/student-4.png" alt="">
+            <p class="fs-2 fw-bold ps-5">
+              Nusrat Jahan
+            </p>
+            <p class="fs-4 ps-5"> Web Devoloper</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <section>
+    <div class="">
+
+    </div>
+  </section>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
