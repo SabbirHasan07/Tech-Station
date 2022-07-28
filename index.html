@@ -277,41 +277,75 @@
                   <h1>Form</h1>
                   <div>
 
-                    <div class="input-group input-group-sm mb-3 p-3">
-                      <span class="input-group-text fs-3" id="inputGroup-sizing-sm">Name</span>
+                    <div class="row p-3">
+                      <div class="col">
+                        <input type="text" class="form-control fs-4" placeholder="First name" aria-label="First name">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control fs-4" placeholder="Last name" aria-label="Last name">
+                      </div>
+                    </div>
+                    <form class="row g-3">
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label fs-4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label fs-4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress" class="form-label fs-4">Present Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Present Address">
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress2" class="form-label fs-4">Parmanent Address</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Parmanent Address">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputCity" class="form-label fs-4">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="col-md-4">
+                        <label for="inputState" class="form-label fs-4">Road</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Choose...</option>
+                          <option>N0-1 Block-B</option>
+                          <option>N0-1 Block-C</option>
+                          <option>N0-2 Block-A</option>
+                          <option>N0-3 Block-D</option>
+                        </select>
+                      </div>
+                      <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                      <div class="input-group input-group-sm mb-3 p-3">
+                      <span class="input-group-text" id="inputGroup-sizing-sm">Transaction Id</span>
                       <input type="text" class="form-control" aria-label="Sizing example input"
                         aria-describedby="inputGroup-sizing-sm">
                     </div>
-                    <div class="input-group input-group-sm mb-3 p-3">
-                      <span class="input-group-text fs-3" id="inputGroup-sizing-sm">Gurdiane Name</span>
-                      <input type="text" class="form-control" aria-label="Sizing example input"
-                        aria-describedby="inputGroup-sizing-sm">
-                    </div>
-                    <div class="input-group input-group-sm mb-3 p-3">
-                      <span class="input-group-text fs-3" id="inputGroup-sizing-sm">Phone Number</span>
-                      <input type="text" class="form-control" aria-label="Sizing example input"
-                        aria-describedby="inputGroup-sizing-sm">
-                    </div>
-                    <div class="input-group input-group-sm mb-3 p-3">
-                      <span class="input-group-text fs-3" id="inputGroup-sizing-sm">E-mail</span>
-                      <input type="text" class="form-control" aria-label="Sizing example input"
-                        aria-describedby="inputGroup-sizing-sm">
-                    </div>
-                    <div class="input-group input-group-sm mb-3 p-3">
-                      <span class="input-group-text fs-3" id="inputGroup-sizing-sm">Password</span>
-                      <input type="text" class="form-control" aria-label="Sizing example input"
-                        aria-describedby="inputGroup-sizing-sm">
-                    </div>
-                    <div class="input-group input-group-sm mb-3 p-3">
-                      <span class="input-group-text fs-3" id="inputGroup-sizing-sm">Transaction Id</span>
-                      <input type="text" class="form-control" aria-label="Sizing example input"
-                        aria-describedby="inputGroup-sizing-sm">
-                    </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Check me out
+                          </label>
+                        </div>
+                      </div>
+                     
+                    </form>
+
+                    
+                    
+                    
+                    
+                    
 
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button class="btn btn-primary fs-2 ps-5 pe-5" data-bs-target="#exampleModalToggle2"
+                  <button class="btn btn-primary fs-4 ps-2 pe-2" data-bs-target="#exampleModalToggle2"
                     data-bs-toggle="modal">Submit</button>
                 </div>
               </div>
@@ -322,12 +356,11 @@
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title text-dark fs-3" id="exampleModalToggleLabel2"><i
-                      class="fa-solid fa-circle-check"></i> Done</h5>
+                  <h5 class="modal-title text-dark fs-3" id="exampleModalToggleLabel2"><i class="fa-solid fa-circle-check text-success"></i> Done</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body text-dark">
-                  <p class="fs-4"><span class="text-warning">Congratultons!</span> You successfully complete your
+                  <p class="fs-4"><span class="text-primary">Congratultons!</span> You successfully complete your
                     registration.</p>
                 </div>
 
